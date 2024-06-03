@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order - DIGNANS CATERING</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+
+<header>
+    <h1>DIGNANS CATERING</h1>
+    <nav>
+        <ul>
+            <li><a href="about.html">Home</a></li>
+            <li><a href="menu.html">Menu</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="order.html">Order</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="specials.html">Specials</a></li>
+            <li><a href="faq.html">FAQ</a></li>
+            <li><a href="signin.html">Sign in</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="order-section">
+    <h2>Place Your Order</h2>
+    <p>Please sign in to proceed with your order.</p>
+    <div class="sign-in-form">
+        <form action="submit_order.php" method="post">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Sign In</button>
+        </form>
+    </div>
+    <p>If you don't have an account, <a href="signin.html">sign up here</a>.</p>
+    <p style="font-size: 18px;">Press <a href="http://eepurl.com/iQkz3s">this link to order</a>.</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Dignans Catering. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+

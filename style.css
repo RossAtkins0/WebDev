@@ -1,0 +1,174 @@
+/* Global styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav ul li a:hover {
+    color: #ccc;
+}
+
+section {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+p {
+    color: #666;
+}
+
+
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-section div {
+    width: 50%;
+    padding: 0 20px;
+}
+
+.about-section img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.menu-section {
+    text-align: center;
+}
+
+
+.menu-item-details img {
+    width: 150px; 
+}
+
+.menu-section .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.menu-section .btn:hover {
+    background-color: #555;
+}
+
+
+
+.contact-section {
+    text-align: center;
+}
+
+.contact-section .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.contact-section .btn:hover {
+    background-color: #555;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+.signin-section,
+.signup-section {
+    text-align: center;
+}
+
+.signin-section form,
+.signup-section form {
+    margin-top: 20px;
+}
+
+.signin-section label,
+.signup-section label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.signin-section input[type="email"],
+.signin-section input[type="text"],
+.signin-section input[type="password"],
+.signup-section input[type="email"],
+.signup-section input[type="text"],
+.signup-section input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.signin-section input[type="submit"],
+.signup-section input[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signin-section input[type="submit"]:hover,
+.signup-section input[type="submit"]:hover {
+    background-color: #555;
+}
